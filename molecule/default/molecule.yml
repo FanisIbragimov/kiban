@@ -1,11 +1,13 @@
+  GNU nano 2.9.3                                   molecule.yml                                             
+
 ---
 dependency:
   name: galaxy
 driver:
   name: docker
 platforms:
-  - name: instance
-    image: docker.io/pycontribs/centos:7
+  - name: instancek
+    image: quay.io/centos/centos:7
     pre_build_image: true
 provisioner:
   name: ansible
